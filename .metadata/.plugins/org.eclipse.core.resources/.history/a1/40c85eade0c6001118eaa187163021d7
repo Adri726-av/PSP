@@ -1,0 +1,22 @@
+package UNIDAD_1.Boletin_1.ej1;
+
+import java.io.IOException;
+
+public class chrome {
+	public static void main(String[] args) {
+		Runtime rt = Runtime.getRuntime();
+		String ruta = "C:\\Program Files\\Google\\Chrome\\Application\\chrome";
+		String[] info = {"C:\\Program Files\\Google\\Chrome\\Application", "https://educacionadistancia.juntadeandalucia.es/centros/sevilla/my/"};
+		try {
+			Process proceso = rt.exec(info);
+			int codigoRetorno = proceso.waitFor();
+			System.out.println("Fin" + codigoRetorno);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block 
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
