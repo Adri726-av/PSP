@@ -1,4 +1,4 @@
-package UNIDAD_1.Boletin_1.Ej1;
+package Unidad_1.Boletin_1.Ej1;
 
 import java.io.File;
 import java.util.Scanner;

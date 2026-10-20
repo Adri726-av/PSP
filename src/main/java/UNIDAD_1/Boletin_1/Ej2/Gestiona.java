@@ -1,4 +1,4 @@
-package UNIDAD_1.Boletin_1.Ej2;
+package Unidad_1.Boletin_1.Ej2;
 
 import java.io.File;
 import java.io.IOException;
