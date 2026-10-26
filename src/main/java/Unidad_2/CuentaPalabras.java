@@ -1,9 +1,8 @@
-package Unidad_2;
+/*package Unidad_2;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
-
 
 public class CuentaPalabras {
 	public static void main(String[] args) {
@@ -36,9 +35,10 @@ public class CuentaPalabras {
 		} finally {
 			if (in != null) {
 				in.close();
-				// OjO Al cerrar el Scanner cierra también el FileReader que envuelve. 
+				// OjO Al cerrar el Scanner cierra también el FileReader que envuelve.
 			}
 		}
 		return contador;
 	}
-}
+
+}*/

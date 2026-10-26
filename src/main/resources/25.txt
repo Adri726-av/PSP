@@ -1,0 +1,1 @@
+Cuantas veces supera el valor:  28

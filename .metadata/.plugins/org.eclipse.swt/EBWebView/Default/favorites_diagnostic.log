@@ -1,0 +1,29 @@
+2026-10-22 10:24:17.108: [INFO] CurrentProfilePath: C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 10:24:17.108: [INFO] Profiles total count: 1
+2026-10-22 10:24:17.108: [INFO] Profile: name=Perfil 1 path=C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-10-22 10:24:17.108: [INFO] LastUsedProfileDir: C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 10:24:17.108: [INFO] OnDoneLoading sync enabled: 0
+2026-10-22 10:24:17.108: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-22 10:24:17.108: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-22 10:24:17.108: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 10:24:20.354: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 10:24:26.423: [INFO] CurrentProfilePath: C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 10:24:26.423: [INFO] Profiles total count: 1
+2026-10-22 10:24:26.423: [INFO] Profile: name=Perfil 1 path=C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T10:24:17.413Z
+2026-10-22 10:24:26.423: [INFO] LastUsedProfileDir: C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 10:24:26.423: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T10:24:17.413Z
+2026-10-22 10:24:26.423: [INFO] OnDoneLoading sync enabled: 0
+2026-10-22 10:24:26.423: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-22 10:24:26.423: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-22 10:24:26.423: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 10:27:52.166: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-26 07:07:45.503: [INFO] CurrentProfilePath: C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-26 07:07:45.503: [INFO] Profiles total count: 1
+2026-10-26 07:07:45.503: [INFO] Profile: name=Perfil 1 path=C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T10:24:40.592Z
+2026-10-26 07:07:45.503: [INFO] LastUsedProfileDir: C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-26 07:07:45.503: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\usuario1234\Documents\DAM\PSP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T10:24:40.592Z
+2026-10-26 07:07:45.503: [INFO] OnDoneLoading sync enabled: 0
+2026-10-26 07:07:45.503: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-26 07:07:45.503: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-26 07:07:45.503: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-26 07:08:58.291: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

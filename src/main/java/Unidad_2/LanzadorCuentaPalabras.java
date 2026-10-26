@@ -1,11 +1,11 @@
-package Unidad_2;
+/*package Unidad_2;
 
 import java.io.File;
 import java.io.IOException;
 
-public class LanzadorContadorPalabras {
+public class LanzadorCuentaPalabras {
 	public static void main(String[] args) {
-		LanzadorContadorPalabras lzc = new LanzadorContadorPalabras();
+		LanzadorCuentaPalabras lzc = new LanzadorCuentaPalabras();
 		String rutaCompila = "src/main/java/Unidad_2/CuentaPalabras.java";
 		String rutaClass = "target/classes";
 		String nombreClass = "Unidad_2.CuentaPalabras";
@@ -55,4 +55,6 @@ public class LanzadorContadorPalabras {
 		int exit = p.waitFor();
 		System.out.println("Codigo de salida: " + exit);
 	}
-}
+
+
+}*/
