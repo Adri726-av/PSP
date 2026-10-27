@@ -1,4 +1,4 @@
-package Unidad_2;
+package UNIDAD_1.Boletin_2.CuentaPalabras;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,9 +6,9 @@ import java.io.IOException;
 public class LanzadorCuentaPalabras {
 	public static void main(String[] args) {
 		LanzadorCuentaPalabras lzc = new LanzadorCuentaPalabras();
-		String rutaCompila = "src/main/java/Unidad_2/CuentaPalabras.java";
+		String rutaCompila = "src/main/java/UNIDAD_1/CuentaPalabras/CuentaPalabras.java";
 		String rutaClass = "target/classes";
-		String nombreClass = "Unidad_2.CuentaPalabras";
+		String nombreClass = "Unidad_1.Boletin_2.CuentaPalabras.CuentaPalabras";
 		
 		try {
 			lzc.compilaContadorPalabras(rutaCompila, rutaClass, nombreClass);

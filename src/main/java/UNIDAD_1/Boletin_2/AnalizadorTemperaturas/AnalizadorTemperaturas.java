@@ -15,7 +15,6 @@ public class AnalizadorTemperaturas {
 		int valor = Integer.parseInt(valorUmbral);
 		
 		String nombreDestino = args[2];
-		String ruta = "";
 		
 		AnalizadorTemperaturas a = new AnalizadorTemperaturas();
 		

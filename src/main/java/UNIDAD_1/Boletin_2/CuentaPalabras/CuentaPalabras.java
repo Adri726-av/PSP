@@ -1,4 +1,4 @@
-package Unidad_2;
+package UNIDAD_1.Boletin_2.CuentaPalabras;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
