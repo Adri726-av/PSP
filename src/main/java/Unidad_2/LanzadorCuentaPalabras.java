@@ -1,4 +1,4 @@
-/*package Unidad_2;
+package Unidad_2;
 
 import java.io.File;
 import java.io.IOException;
@@ -57,4 +57,4 @@ public class LanzadorCuentaPalabras {
 	}
 
 
-}*/
+}

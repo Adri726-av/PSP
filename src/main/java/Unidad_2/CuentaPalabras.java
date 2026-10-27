@@ -1,4 +1,4 @@
-/*package Unidad_2;
+package Unidad_2;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -41,4 +41,4 @@ public class CuentaPalabras {
 		return contador;
 	}
 
-}*/
+}
