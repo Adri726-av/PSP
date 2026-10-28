@@ -29,7 +29,7 @@ public class AnalizadorTemperaturas {
 		Scanner in = null;
 		int contador = 0;
 		try {
-			// abre el fichero
+			// abre el fichero 
 			FileReader fichero = new FileReader(ruta);
 			//Se crea el flujo
 			in = new Scanner(fichero);
