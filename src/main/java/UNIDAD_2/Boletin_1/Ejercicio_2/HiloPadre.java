@@ -13,6 +13,7 @@ public class HiloPadre {
 	}
 	
 	public static void main(String[] args) {
-		List<Thread.State> estadosHilo1 = new ArrayList();
+		List<Thread.State> estadosHilo1 = new ArrayList<>();
+		
 	}
 }
