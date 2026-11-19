@@ -26,14 +26,14 @@ public class Mascota implements Runnable{
 	}
 
 	private void comer() {
-		this.contadorVecesComido++;
-		System.out.println("La mascota con nombre " + nombre + " ha comenzado a comer");
+		System.out.println("La mascota con nombre " + nombre + " ha comenzado a comer: " + this.contadorVecesComido);
 		try {
 			Thread.sleep(contadorVecesComido * 1000);
+			this.contadorVecesComido++;
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println("La mascota con nombre " + nombre + " ha terminado de comer");
+		System.out.println("La mascota con nombre " + nombre + " ha terminado de comer: " + this.contadorVecesComido);
 	}
 
 	@Override
