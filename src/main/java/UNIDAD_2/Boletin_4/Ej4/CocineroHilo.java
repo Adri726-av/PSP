@@ -1,28 +1,24 @@
 package UNIDAD_2.Boletin_4.Ej4;
 
-public class CocineroHilo implements Runnable{
+public class CocineroHilo implements Runnable {
 	private Bandeja bandeja;
-	private String nombre;
 
-	public CocineroHilo(Bandeja bandeja, String nombre) {
+	public CocineroHilo(Bandeja bandeja) {
 		super();
 		this.bandeja = bandeja;
-		this.nombre = nombre;
 	}
 
 	@Override
 	public void run() {
-		System.out.println("Empieza hilo" + this.nombre);
-		for (int i = 0; i < 12; i++) {
+		for (int i = 1; i <= 12; i++) {
 			try {
-				Thread.currentThread().sleep(5000);
-				System.out.println("Me pongo a cocinar" + this.nombre);
-				bandeja.pongoPlato(nombre);
+				System.out.println(Thread.currentThread().getName() + " empieza a preparar el plato " + i);
+				Thread.sleep(5000);
+				bandeja.pongoPlato("plato " + i);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
+		System.out.println(Thread.currentThread().getName() + " ha terminado su jornada");
 	}
-
 }
