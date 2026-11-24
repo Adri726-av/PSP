@@ -11,7 +11,6 @@ public class ReintegrosHilo implements Runnable {
 	@Override
 	public void run() {
 		try {
-			// Empieza medio segundo después para que se alternen con los ingresos
 			Thread.sleep(500);
 			for (int i = 0; i < 5; i++) {
 				int aleatorio = ((int) (Math.random() * 500 + 1));

@@ -12,8 +12,8 @@ public class ComensalHilo implements Runnable {
 	public void run() {
 		for (int i = 0; i < 4; i++) {
 			try {
+				System.out.println(Thread.currentThread().getName() + " empieza a comer");
 				String plato = bandeja.retiroPlato();
-				System.out.println(Thread.currentThread().getName() + " empieza a comer el " + plato);
 				Thread.sleep(3000);
 				System.out.println(Thread.currentThread().getName() + " ha terminado de comer el " + plato);
 			} catch (InterruptedException e) {

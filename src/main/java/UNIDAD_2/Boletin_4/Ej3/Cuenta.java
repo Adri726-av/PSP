@@ -13,18 +13,15 @@ public class Cuenta {
 		System.out.println(Thread.currentThread().getName() + " ingresa " + cantidad + " euros. Saldo actual: " + saldo);
 	}
 
-	public synchronized boolean retirarDinero(int cantidad) {
+	public synchronized void retirarDinero(int cantidad) {
 		if (cantidad > saldo) {
-			System.out.println(Thread.currentThread().getName() + " intenta retirar " + cantidad
-					+ " euros pero no hay saldo suficiente. Saldo actual: " + saldo);
-			return false;
+			System.out.println(Thread.currentThread().getName() + " intenta retirar " + cantidad + " euros pero no hay saldo suficiente. Saldo actual: " + saldo);
 		}
 		saldo = saldo - cantidad;
 		System.out.println(Thread.currentThread().getName() + " retira " + cantidad + " euros. Saldo actual: " + saldo);
-		return true;
 	}
 
 	public synchronized int getSaldo() {
-		return saldo;
+		return this.saldo;
 	}
 }
